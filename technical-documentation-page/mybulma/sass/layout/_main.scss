@@ -1,0 +1,43 @@
+#main-doc {
+
+    width: 65vw;
+
+    .main-section {
+        padding-left: 2rem;
+
+        @media screen and (max-width: 1023px) {
+
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }
+
+    #Introduction {
+        padding-top: 1.5rem;
+    }
+
+    p {
+        padding-left: 1rem;
+    }
+
+    ul {
+        list-style-type: initial;
+        padding-left: 3rem;
+
+        ul {
+            list-style-type: circle;
+        }
+    }
+
+    code {
+        white-space: pre-line;
+        margin-left: 1.8rem;
+        padding: 0.8rem;
+        display: block;
+    }
+
+    #Reference {
+
+        padding-bottom: 1.5rem;
+    }
+}

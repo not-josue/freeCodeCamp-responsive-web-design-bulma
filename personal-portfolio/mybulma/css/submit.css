@@ -1,0 +1,13 @@
+/* Only used for submission */
+
+#navbar {
+    top: 0;
+    position: sticky;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-end {
+        font-size: 1.25rem;
+    }
+}

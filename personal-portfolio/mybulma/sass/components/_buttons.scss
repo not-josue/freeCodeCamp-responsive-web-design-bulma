@@ -1,0 +1,15 @@
+button {
+
+    transition: transform 0.9s ease-out;
+}
+
+button:hover {
+
+    text-decoration: none !important;
+    transform: translateY(1rem); 
+}
+
+button:focus {
+
+    box-shadow: none !important;
+}

@@ -1,0 +1,24 @@
+
+form {
+
+    background-color: hsla(240, 30%, 15%, 0.8);
+    width: 50%;
+    margin: auto;
+
+    @media screen and (max-width: 768px) {
+        width: 70%;
+    }
+
+    .select {
+        width: 587.5px !important;
+    }
+
+    .radio:hover, .checkbox:hover {
+        color: hsl(0, 0%, 90%) !important;
+    }
+
+    #submit {
+        justify-content: center;
+    }
+
+}

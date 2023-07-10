@@ -1,0 +1,14 @@
+ul {
+    max-width: 60vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    list-style: disc !important;
+
+    li:not(:last-child) {
+        margin-bottom: 0.8rem;
+    }
+
+    :last-child {
+        margin-bottom: 0;
+    }
+}

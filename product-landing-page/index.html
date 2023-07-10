@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Product Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="product landing page for freeCodeCamp responsive web design certificate" />
+    <meta name="keywords" content="freeCodeCamp, product landing page, responsive web design certificate" />
+    <meta name="author" content="Josue" />
+    <!-- stylesheet and fontawesome -->
+    <link rel="stylesheet" href="mybulma/css/mystyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="has-navbar-fixed-top has-background-light">
+
+    <header id="header">
+        <nav id="nav-bar" class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand is-justify-content-space-between is-align-items-center">
+                <a class="navbar-item pl-3 py-4">
+                    <img id="header-img"
+                        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                        alt="original trombones logo">
+                </a>
+                <a role="button" class="navbar-burger mr-3" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end mr-6">
+                    <a href="#Features" class="navbar-item nav-link mr-6">
+                        Features
+                    </a>
+                    <a href="#How_It_Works" class="navbar-item nav-link mr-6">
+                        How It Works
+                    </a>
+                    <a href="#Pricing" class="navbar-item nav-link mr-6">
+                        Pricing
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section has-text-centered">
+            <h1 class="is-size-4 is-size-5-mobile has-text-weight-semibold">
+                Handcrafted, home-made masterpieces
+            </h1>
+            <form id="form" class="mt-4" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" name="email" placeholder="Enter your email address" class="py-1"
+                    required>
+                <br>
+                <input id="submit" type="submit" class="button is-warning is-small has-text-weight-bold mt-4"
+                    value="Get Started">
+            </form>
+        </section>
+
+        <section id="Features">
+
+            <section class="section">
+                <div class="columns is-vcentered">
+                    <div class="column is-one-quarter has-text-centered">
+                        <span>
+                            <i class="fa-solid fa-fire-flame-curved fa-4x" style="color: #ff8000;"></i>
+                        </span>
+                    </div>
+                    <div class="column">
+                        <h2 class="is-size-5 has-text-weight-semibold">Premium Materials</h2>
+                        <p>
+                            Our trombones use the shiniest brass which is sourced locally. This will increase the
+                            longevity
+                            of your purchase.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="columns is-vcentered">
+                    <div class="column is-one-quarter has-text-centered">
+                        <span>
+                            <i class="fa-solid fa-truck-fast fa-4x" style="color: #ff8000;"></i>
+                        </span>
+                    </div>
+                    <div class="column">
+                        <h2 class="is-size-5 has-text-weight-semibold">Fast Shipping</h2>
+                        <p>
+                            We make sure you recieve your trombone as soon as we have finished making it. We also
+                            provide
+                            free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="columns is-vcentered">
+                    <div class="column is-one-quarter has-text-centered">
+                        <span>
+                            <i class="fa-solid fa-battery-full fa-4x" style="color: #ff8000;"></i>
+                        </span>
+                    </div>
+                    <div class="column">
+                        <h2 class="is-size-5 has-text-weight-semibold">Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or faults and we will check
+                            and
+                            test the pitch of your instrument
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="How_It_Works" class="section is-flex is-justify-content-center">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <section id="Pricing" class="section">
+
+            <div class="columns">
+                <div class="column">
+                    <article class="message has-text-centered">
+                        <div
+                            class="message-header is-justify-content-center has-background-grey-lighter has-text-grey-dark">
+                            <p>TENOR TROMBONE</p>
+                        </div>
+                        <div class="message-body">
+                            <p class="is-size-4 has-text-weight-semibold">$600</p>
+                            <ul>
+                                <li>Lorem ipsum.</li>
+                                <li>Lorem ipsum.</li>
+                                <li>Lorem ipsum dolor.</li>
+                                <li>Lorem ipsum.</li>
+                            </ul>
+                        </div>
+                        <button class="button is-warning has-text-weight-semibold mb-5">
+                            Select
+                        </button>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message has-text-centered">
+                        <div
+                            class="message-header is-justify-content-center has-background-grey-lighter has-text-grey-dark">
+                            <p>BASS TROMBONE</p>
+                        </div>
+                        <div class="message-body">
+                            <p class="is-size-4 has-text-weight-semibold">$900</p>
+                            <ul>
+                                <li>Lorem ipsum.</li>
+                                <li>Lorem ipsum.</li>
+                                <li>Lorem ipsum dolor.</li>
+                                <li>Lorem ipsum.</li>
+                            </ul>
+                        </div>
+                        <button class="button is-warning has-text-weight-semibold mb-5">
+                            Select
+                        </button>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message has-text-centered">
+                        <div
+                            class="message-header is-justify-content-center has-background-grey-lighter has-text-grey-dark">
+                            <p>VALVE TROMBONE</p>
+                        </div>
+                        <div class="message-body">
+                            <p class="is-size-4 has-text-weight-semibold">$1200</p>
+                            <ul>
+                                <li>Plays similar to a Trumpet</li>
+                                <li>Great for Jazz Bands</li>
+                                <li>Lorem ipsum dolor.</li>
+                                <li>Lorem ipsum.</li>
+                            </ul>
+                        </div>
+                        <button class="button is-warning has-text-weight-semibold mb-5">
+                            Select
+                        </button>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="has-background-grey-lighter has-text-right p-2">
+
+        <ul class="is-flex is-justify-content-flex-end is-size-5">
+            <li class="mr-5">Privacy</li>
+            <li class="mr-5">Terms</li>
+            <li class="mr-5">Contact</li>
+        </ul>
+        <p class="mr-3">
+            Copyright &copy;
+            <span id="year">
+                <script>
+                    const year = document.querySelector('#year');
+                    year.innerHTML = new Date().getFullYear();
+                </script>
+            </span>
+            , Original Trombones
+        </p>
+
+    </footer>
+
+    <script src="javascript/index.js"></script>
+
+</body>
+
+</html>

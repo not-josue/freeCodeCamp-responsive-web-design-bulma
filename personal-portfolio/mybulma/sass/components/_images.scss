@@ -1,0 +1,20 @@
+@use '../abstract/colors' as *;
+
+figure {
+
+    img {
+
+        padding-top: inherit !important;
+        vertical-align: bottom;
+    }
+
+    figcaption {
+
+        p:hover {
+    
+            span {
+                color: $red !important;
+            }
+        }
+    }
+}
