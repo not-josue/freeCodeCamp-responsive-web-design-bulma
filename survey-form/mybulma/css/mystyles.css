@@ -7,15 +7,13 @@ form {
   background-color: rgba(27, 27, 50, 0.8);
   width: 50%;
   margin: auto; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1023px) {
     form {
       width: 70%; } }
   form .select {
     width: 587.5px !important; }
   form .radio:hover, form .checkbox:hover {
     color: #e6e6e6 !important; }
-  form #submit {
-    justify-content: center; }
 
 /* Bulma Base */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */

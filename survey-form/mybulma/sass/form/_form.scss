@@ -5,7 +5,7 @@ form {
     width: 50%;
     margin: auto;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1023px) {
         width: 70%;
     }
 
@@ -15,10 +15,6 @@ form {
 
     .radio:hover, .checkbox:hover {
         color: hsl(0, 0%, 90%) !important;
-    }
-
-    #submit {
-        justify-content: center;
     }
 
 }
